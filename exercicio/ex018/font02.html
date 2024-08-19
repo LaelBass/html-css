@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'Lael';
+            src: url('Coffee\ Normal.otf') format('opentype'), url('Coffee\ Normal.ttf') format('truetype');
+            
+            /*
+            tipos de format()
+             -opentype (otf)
+            -truetype (ttf)
+            embedded-opentype
+            truetype-aat (apple advanced Typography)
+            - svg 
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family:'Lael';
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, corporis sed assumenda ullam tenetur rem explicabo! Eos laboriosam nisi dicta? Aut cumque molestiae repellat excepturi distinctio facere quas, inventore consectetur.</p>
+</body>
+</html>
