@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Mobile Devices. Extra Small Mobile (Portrait): 320px – 480px. ...
+Tablets. Small Tablets (Portrait): 601px – 768px. ...
+Laptops and Small Desktops. Small Desktops and Laptops: 1025px – 1280px. ...
+Large Desktops. Large Desktops and High-Resolution Screens: 1281px – 1440px. ...
+Extra-Large Screens. */
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
